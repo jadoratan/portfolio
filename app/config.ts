@@ -23,12 +23,12 @@
 // The single source of truth for anything identifying you. Every other
 // section below derives from these fields instead of repeating them.
 export const ME = {
-  firstName:  'Your',
-  lastName:   'Name',
-  role:       'Software Engineer', // e.g. "Software Engineer", "Data Scientist"
-  email:      'you@example.com',
-  github:     'yourusername',      // GitHub username only, no URL
-  linkedin:   'yourusername',      // LinkedIn username only, no URL
+  firstName:  'Janna Audrey',
+  lastName:   'Doratan',
+  role:       'Computer Science and Engineering Student at UCLA', // e.g. "Software Engineer", "Data Scientist"
+  email:      'jadoratan@gmail.com',
+  github:     'jadoratan',      // GitHub username only, no URL
+  linkedin:   'jadoratan',      // LinkedIn username only, no URL
   resumePath: '/resume.pdf',       // path under public/ — see README.md
 };
 
@@ -83,7 +83,7 @@ export const NAV_LINKS = [
 // buttons — set `primary: true` for the filled/highlighted button.
 export const HERO = {
   greeting: "Hi, I'm",
-  bio:      "I'm a computer science student at UCLA passionate about building software that solves real problems. I love working across the stack, from crafting clean UIs to designing scalable back-ends.",
+  bio:      "2nd year undergraduate studying Computer Science and Engineering at UCLA. Interested in full-stack development and AI/ML. Passionate about creating human-centered products that make life easier :).",
   ctas: [
     { label: 'View my projects →', href: '#projects', primary: true  },
     { label: 'Get in touch',       href: '#contact',  primary: false },
@@ -105,10 +105,9 @@ export interface EducationEntry {
 export const EDUCATION: EducationEntry[] = [
   {
     school:     'University of California, Los Angeles',
-    degree:     'B.S. Computer Science',
-    minor:      'Statistics',
-    gpa:        '3.82',
-    graduation: 'June 2026',
+    degree:     'B.S. Computer Science and Engineering',
+    gpa:        '4.0',
+    graduation: 'June 2029',
     courses: [
       'Data Structures & Algorithms',
       'Operating Systems',
